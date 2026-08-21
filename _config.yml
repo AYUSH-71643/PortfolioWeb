@@ -1,8 +1,9 @@
-title: My Portfolio
-description: Welcome to my personal portfolio and game showcase.
-author: "Your Name" # <--- Change this to your actual name
-role: "Game Developer & Designer"
-email: "your.email@example.com"
-github: "yourusername"
+title: Ayush Kumar - Portfolio
+description: "Pursuing my B.Tech degree from Ram Devi Jindal College."
+author: "Ayush Kumar"
+role: "B.Tech CSE (Cybersecurity) Student"
+email: "ayushkumar71643@gmail.com"
+github: "AYUSH-71643"
+linkedin: "ayushkumar71643"
 baseurl: "/PortfolioWeb" 
 url: "https://AYUSH-71643.github.io"
