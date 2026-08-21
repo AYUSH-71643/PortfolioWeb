@@ -599,3 +599,17 @@ body {
  } 
   
  
+ / *   U p d a t e d   U s e r n a m e   B a d g e   S t y l e   * / 
+ # u s e r - n a m e   { 
+         b a c k g r o u n d - c o l o r :   # 3 3 6 6 f f   ! i m p o r t a n t ; 
+         c o l o r :   # f f f f f f   ! i m p o r t a n t ; 
+         p a d d i n g :   4 p x   1 0 p x   ! i m p o r t a n t ; 
+         b o r d e r - r a d i u s :   6 p x   ! i m p o r t a n t ; 
+         f o n t - w e i g h t :   7 0 0   ! i m p o r t a n t ; 
+         f o n t - s i z e :   0 . 9 5 r e m   ! i m p o r t a n t ; 
+         l e t t e r - s p a c i n g :   0 . 5 p x   ! i m p o r t a n t ; 
+         t e x t - s h a d o w :   n o n e   ! i m p o r t a n t ; 
+         b o x - s h a d o w :   0   2 p x   8 p x   r g b a ( 5 1 ,   1 0 2 ,   2 5 5 ,   0 . 4 )   ! i m p o r t a n t ; 
+ } 
+  
+ 
