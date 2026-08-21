@@ -4,5 +4,5 @@ author: "Your Name" # <--- Change this to your actual name
 role: "Game Developer & Designer"
 email: "your.email@example.com"
 github: "yourusername"
-baseurl: "" 
-url: ""
+baseurl: "/PortfolioWeb" 
+url: "https://AYUSH-71643.github.io"
