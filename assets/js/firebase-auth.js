@@ -49,13 +49,13 @@ document.addEventListener('DOMContentLoaded', () => {
     onAuthStateChanged(auth, (user) => {
         if (user) {
             // User is signed in.
-            if(loginBtn) loginBtn.style.display = 'none';
+            if(loginBtn) loginBtn.style.setProperty('display', 'none', 'important');
             if(userProfile) userProfile.style.display = 'flex';
             if(userName) userName.textContent = user.displayName;
             if(userPic) userPic.src = user.photoURL;
         } else {
             // User is signed out.
-            if(loginBtn) loginBtn.style.display = 'flex';
+            if(loginBtn) loginBtn.style.setProperty('display', 'flex', 'important');
             if(userProfile) userProfile.style.display = 'none';
         }
     });
