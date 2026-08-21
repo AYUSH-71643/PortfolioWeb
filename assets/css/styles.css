@@ -1,4 +1,4 @@
-﻿:root {
+:root {
     --primary: #4facfe;
     --secondary: #00f2fe;
     --dark: #1a1a2e;
@@ -709,7 +709,7 @@ body {
 
 /* Updated Username Badge Style */
 #user-name {
-    background-color: #3366ff !important;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%) !important;
     color: #ffffff !important;
     padding: 4px 10px !important;
     border-radius: 6px !important;
