@@ -711,7 +711,7 @@ body {
     background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%) !important;
     color: #ffffff !important;
     padding: 4px 10px !important;
-    border-radius: 6px !important;
+    border-radius: 30px !important;
     font-weight: 700 !important;
     font-size: 0.95rem !important;
     letter-spacing: 0.5px !important;
