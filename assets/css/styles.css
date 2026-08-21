@@ -707,7 +707,6 @@ body {
 
 
 
-/* Updated Username Badge Style */
 #user-name {
     background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%) !important;
     color: #ffffff !important;
@@ -718,6 +717,13 @@ body {
     letter-spacing: 0.5px !important;
     text-shadow: none !important;
     box-shadow: 0 2px 8px rgba(51, 102, 255, 0.4) !important;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+    display: inline-block !important;
+}
+
+#user-name:hover {
+    transform: scale(1.05) !important;
+    box-shadow: 0 6px 15px rgba(0, 242, 254, 0.4) !important;
 }
 
 
