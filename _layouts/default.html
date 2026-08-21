@@ -8,8 +8,13 @@
 </head>
 <body>
     <!-- Navbar with Google Login -->
-    <nav class="navbar" style="justify-content: flex-end;">
-        <div class="nav-links">
+    <nav class="navbar" style="justify-content: space-between;">
+        <div class="nav-left">
+            {% if page.url contains "games" %}
+            <a href="{{ site.baseurl }}/" class="btn" style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); padding: 8px 18px; font-size: 0.95rem; border: 1px solid rgba(255,255,255,0.2); border-radius: 30px; text-decoration: none; color: white;">&#8592; Back to Profile</a>
+            {% endif %}
+        </div>
+        <div class="auth-container">
             <!-- Login Button -->
             <button id="google-login-btn" class="google-login-btn">
                 <svg width="20" height="20" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
