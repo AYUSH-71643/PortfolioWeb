@@ -21,12 +21,12 @@ title: Featured Games
         <h2 class="section-title">Featured Games</h2>
         <div class="games-grid">
             {% for game in site.data.games %}
-            <div class="game-banner">
+            <div class="game-banner" onclick="window.location.href='{{ site.baseurl }}{{ game.link }}'" style="cursor: pointer;">
                 <img src="{{ game.image }}" alt="{{ game.title }}" class="game-image">
                 <div class="game-info">
                     <h3>{{ game.title }}</h3>
                     <p>{{ game.description }}</p>
-                    <a href="{{ game.link }}" class="btn">Play Now</a>
+                    <a href="{{ site.baseurl }}{{ game.link }}" class="btn">Play Now</a>
                 </div>
                 <div class="liquid-overlay"></div>
             </div>
